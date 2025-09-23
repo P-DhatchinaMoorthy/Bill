@@ -1,0 +1,19 @@
+Cash Flow API Endpoints:
+
+GET http://localhost:5000/cashflow/customer-payments
+- Get all payments received from customers (includes adjustment payments where customer pays us extra)
+
+GET http://localhost:5000/cashflow/customer-refunds  
+- Get customer adjustment refunds (exchanges where we pay customer extra)
+
+GET http://localhost:5000/cashflow/supplier-payments
+- Get all payments made to suppliers
+
+GET http://localhost:5000/cashflow/supplier-receipts
+- Get all payments received from suppliers (refunds)
+
+GET http://localhost:5000/cashflow/summary
+- Get overall cash flow summary with detailed breakdown
+
+GET http://localhost:5000/cashflow/detailed
+- Get detailed cash flow with all transaction types separated
